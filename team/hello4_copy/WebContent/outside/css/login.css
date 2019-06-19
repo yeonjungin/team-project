@@ -1,0 +1,143 @@
+/*login title*/
+.login_container{
+    margin:auto;
+    margin-top:8vw;
+    margin-bottom:20vw;
+    width:50%;
+    height:25vw;
+
+    border:1px dotted #cccccc;
+}
+
+.login_title{
+    margin-top:-4vw;}
+.login_title h4{
+    font-size: 21px;
+    font-weight: normal;
+    padding: 0 0 10px;
+    position: relative;
+    text-transform: capitalize;
+    margin-top:6vw;
+    text-align:center;
+}
+
+.login_title h4::before{
+
+    background: pink;
+    border-radius: 0 5px 5px 0;
+    bottom: -1.5px;
+    content: "";
+    height: 2px;
+    margin-left:0vw;
+    position: absolute;
+    width: 50px;
+}
+
+#MEMBER_LOGIN{
+    text-align:center;
+    height:5vw;
+    border-bottom:1px dotted #cccccc;
+    font-size:1.4vw;
+}
+#MEMBER_LOGIN p{
+    margin-top:2vw;
+
+}
+.id{
+    border-bottom:1px dotted #cccccc;
+    margin-top:2vw;
+}
+.id span{
+    width:5vw;
+    font-size:0.89em;
+    margin-top:3vw;
+
+}
+.login_container input{
+    width:13vw;
+    height:2.3vw;
+   float:right;
+}
+.password{
+    border-bottom:1px dotted #cccccc;
+    font-size:0.85em;
+}
+.login_container label{
+    display:block;
+    width:40%;
+    margin-left:3vw;
+    height:3vw;
+
+}/*
+.id_check{
+    width:20%;
+    margin-left:3vw;
+}
+.id_check input{
+    vertical-align:-3px;
+    
+}*/
+
+.login_container fieldset{
+    height:30vw;
+
+}
+.button button{
+    width:19.5vw;
+    height:3vw;
+    color:black;
+
+}
+#join{
+    width:50%;
+    float:right;
+    margin-top:-30vw;
+}
+#join button{
+    width:20vw;
+    height:7vw;
+    margin:auto;
+    margin-left:2.3vw;
+    margin-top:2vw;
+    font-size:1vw;
+    background-color: black;
+    color:white;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 989px){
+    .login_container{width:70%;}
+    #MEMBER_LOGIN{font-size:1.3em;}
+    .id span{font-size:1em;}
+    .id span{width:20%;}
+    .id input{width:15vw;}
+    
+    .password span{width:20%; }
+    .password input{width:15vw;}
+    .button button{width:28vw;height:4vw; margin-top:3vw;}
+    #join button{width:33vw; height:15vw; margin-left:-1vw; font-size:1.15em;}
+}
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    .login_container{width:80%; height:30vw;}
+    #MEMBER_LOGIN{font-size:1em;}
+    .id{margin-top:6vw;}
+    .id span{width:20%; }
+    .id input{width:15vw;}
+    .password span{width:20%; margin-top:4vw;}
+    .password input{width:15vw;}
+    .button button{width:28vw;height:6vw; }
+    #join button{width:36vw; height:15vw; margin-left:-1vw; font-size:0.9em; margin-top:4vw;}
+}
+@media only screen and (min-width: 100px) and (max-width: 481px){
+    .login_container{width:90%; height:70vw;}
+    #MEMBER_LOGIN{font-size:1em; height:10vw;}
+    #id_pwd_content{ width:120vw; margin-top:3vw; margin-left:17vw;}
+    .id span{width:20%;}
+    .id input{width:23vw;height:3vw;}
+    .password input{width:23vw;height:3vw;}
+    .password span{width:20%}
+    .button{ margin-top:10vw; width:50vw;}
+    .button button{width:50vw;height:8vw; margin-top:-3vw; margin-left:15vw;}
+    #join {margin-top:0vw; width:100%;}
+    #join button{width:60vw; height:15vw; margin-left:13vw; font-size:0.6em;  }
+}

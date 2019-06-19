@@ -1,0 +1,14 @@
+ul {list-style-type: none;}
+#main_title {font-family:'맑은고딕';font-size: 25px;margin:10px;padding-bottom:6px;border-bottom:solid 2px #aaaaaa;}
+.list_item {clear: both;height: 120px;margin: 10px;border-bottom: solid 1px #cccccc;}
+.list_item1 {clear: both;height: 120px;margin: 10px;border-bottom: solid 1px #cccccc;}
+.image {float:left;width: 100px;}
+.intro {float:left;width: 300px;margin-left:20px; font-size: 20px;}
+.price {float:left;width: 150px;}
+.red {font-weight: bold;color: red;}
+.small {font-size: 12px;margin-top:5px;}
+.btn {border: none;color: white;padding: 14px 28px;cursor: pointer;}
+.danger {background-color: #f44336;}
+.danger:hover {background: #da190b;}
+.success {background-color: #4CAF50;} 
+.success:hover {background-color: #46a049;}

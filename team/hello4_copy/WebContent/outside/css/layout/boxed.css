@@ -1,0 +1,30 @@
+
+
+.wrapper {
+    background:#FFFFFF;
+    margin: 0 auto;
+}
+.slider-wrapper
+{
+    box-shadow:none!important;
+    border-bottom: 2px solid #C6C6C6;
+}
+.wrapper, .footer, #header, .footer_bottom{
+	width:1300px;
+	margin:0 auto;
+}
+.hidden {
+    display:block !important;
+    visibility:visible !important;
+}
+.slider-wrapper{
+    box-shadow :0 0 0 #fff;
+    border-bottom: 2px solid #C6C6C6;
+}
+
+
+@media only screen and (max-width: 1170px) {
+    .wrapper, .footer, #header, .footer_bottom{
+        width: auto ;
+    }
+}

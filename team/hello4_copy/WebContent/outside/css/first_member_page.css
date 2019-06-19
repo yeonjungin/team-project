@@ -1,0 +1,49 @@
+/*login title*/
+.login_container{
+    margin:auto;
+    margin-top:8vw;
+    margin-bottom:20vw;
+    width:50%;
+    height:20vw;
+
+    border:1px dotted #cccccc;
+}
+
+
+.login_title{
+    margin-top:-4vw;}
+.login_title h4{
+    font-size: 21px;
+    font-weight: normal;
+    padding: 0 0 10px;
+    position: relative;
+    text-transform: capitalize;
+    margin-top:6vw;
+    text-align:center;
+}
+
+.login_title h4::before{
+
+    background: pink;
+    border-radius: 0 5px 5px 0;
+    bottom: -1.5px;
+    content: "";
+    height: 2px;
+    margin-left:-0.5vw;
+    position: absolute;
+    width: 50px;
+}
+form{
+    width:90%;
+    margin:auto;
+}
+.join_button_page{
+    color:white;
+    background-color:black;
+    border-color:black;
+    
+}
+.join_button_2 input{
+    background-color: #A09B9F;
+    color:white;
+}

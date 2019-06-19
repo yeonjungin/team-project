@@ -1,0 +1,119 @@
+		#container_cart {
+			width:35vw;
+			height:100vw;
+			margin:0 auto;
+			margin-top
+		}
+		#nameList{
+			
+			width:45%;
+			margin-top:-10vw;
+			margin-left:30vw;
+			
+		}
+		#nameList p{
+			border:1px dotted #ccc;
+			font-size:0.7em;
+
+
+
+		}
+		h1 {
+			font-size:0.4em;
+			text-align: center;
+		}
+		form {
+			margin-left:53vw;
+			margin-top:24vw;
+			width:52%;
+			margin:0 auto;
+			
+						
+		}
+		input[type="text"] {
+			
+			width:10vw;
+			padding:12px;
+			border:none;
+			border-bottom:1px solid #ccc;
+			font-size:1em;
+
+
+		}
+		input:focus {
+			outline: none;
+		}
+		button {
+			width:8vw;
+			background-color:1px solid pink;
+			border-radius:7px;
+			padding:12px;	
+			margin-left:10vw;
+			font-size:1.2em;
+		}
+		button:hover {
+			background-color:1px solid pink;
+		}
+		hr {
+			clear:both;
+			visibility: hidden;
+		}
+		#nameList{
+			background-color: #ccc;
+			width:35%;
+			margin-left:55vw;
+		}
+
+		#nameList > p {
+			font-size:1.0em;
+			
+			line-height: 1.5;
+			margin:0 auto;
+
+		}
+		.del {
+			font-size:20px;
+			text-align: center;
+			color:black;
+			background:transparent;
+			margin-left:5vw;
+			margin-right:10px;
+		}
+		.del:hover {
+			color:#222;
+			cursor: pointer;
+		}
+		.del:active {
+			outline:0;
+		}
+		#formcss{
+			width:60vw;
+			
+		}
+		@media only screen and (min-width: 768px) and (max-width: 989px){
+			form{margin-top: 31vw}
+			#nameList{margin-top:-3vw; width:43%; margin-left:58vw;}
+			input[type="text"]{margin-right:3vw; width:11vw;}
+			#formcss input{} 
+			#formcss {width:90vw; margin-top:31vw;}
+			#prod-pic{width:40vw;}
+			#prod-pic img{width:40vw;}
+			#small-pic img{width:8vw;}
+			#desc {margin-top:-40vw; margin-left:42vw; }
+
+		}
+		@media only screen and (max-width:768px){
+		}
+		@media only screen and (min-width:767px){  }
+		@media only screen and (min-width: 481px) and (max-width: 767px){
+			form{width:60%; margin-left:40vw; height:auto; margin-top:20vw}
+			
+			#nameList{width:45%; margin-left:49vw; font-size:0.5em;}
+			input[type="text"]{margin-right:4vw; width:20vw;}
+		}
+		@media only screen and (max-width: 481px) {}
+		@media only screen and (min-width: 480px) {}
+		@media only screen and (min-width: 100px) and (max-width: 480px){
+			form{margin-top:153vw; width:80%; margin-left:13vw;}
+			input[type="text"]{width:55%;}
+			#nameList{width:80%; margin-left:13vw;}}
